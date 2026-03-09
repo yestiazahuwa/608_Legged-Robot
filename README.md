@@ -1,1 +1,2 @@
 "# 608_Legged-Robot" 
+TENTANG FORWARD KINEMATIC
