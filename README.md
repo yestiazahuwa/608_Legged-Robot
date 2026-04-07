@@ -38,3 +38,4 @@ Dalam project ini, digunakan Aturan Cosinus untuk memecahkan sudut pada segitiga
 
    $$\cos(\theta_2) = \frac{x^2 + y^2 - L_1^2 - L_2^2}{2 L_1 L_2}$$
    
+3.Mencari $\theta_1$: Menggunakan fungsi atan2 untuk mendapatkan sudut terhadap sumbu horizontal.
