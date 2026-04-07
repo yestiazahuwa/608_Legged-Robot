@@ -22,3 +22,8 @@ Repositori ini berisi simulasi robot lengan dengan 3 sendi (3-Join Planar) mengg
 
 1. Forward Kinematics (FK) ➡️Forward Kinematics adalah proses menghitung koordinat $(x, y)$ dari ujung lengan jika sudut setiap sendi diketahui.Rumus Matematis:Posisi $x$ dan $y$ dihitung dengan menjumlahkan proyeksi setiap link:1. Forward Kinematics (FK) ➡️Forward Kinematics adalah proses menghitung koordinat $(x, y)$ dari ujung lengan jika sudut setiap sendi diketahui.Rumus Matematis:Posisi $x$ dan $y$ dihitung dengan menjumlahkan proyeksi setiap link:
    
+               $$x = L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3)$$$$y = L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3)$$
+
+
+2. Inverse Kinematics (IK) ⬅️Inverse Kinematics adalah proses mencari besar sudut $(\theta_1, \theta_2, \theta_3)$ yang diperlukan agar ujung lengan mencapai titik target $(x, y)$ tertentu.Metode Perhitungan (Aturan Cosinus):Dalam project ini, digunakan Aturan Cosinus untuk memecahkan sudut pada segitiga yang terbentuk antar link (seperti yang terdapat pada catatan teknis):Menentukan Posisi Joint 2: Jika sudut orientasi akhir ($\phi$) ditentukan, kita cari titik sebelum link terakhir.
+Mencari $\theta_2$:$$\cos(\theta_2) = \frac{x^2 + y^2 - L_1^2 - L_2^2}{2 L_1 L_2}$$Mencari $\theta_1$: Menggunakan fungsi atan2 untuk mendapatkan sudut terhadap sumbu horizontal.
