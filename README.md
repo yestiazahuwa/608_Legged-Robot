@@ -34,5 +34,7 @@ Metode Perhitungan (Aturan Cosinus):
 Dalam project ini, digunakan Aturan Cosinus untuk memecahkan sudut pada segitiga yang terbentuk antar link (seperti yang terdapat pada catatan teknis):
 
 1. Menentukan Posisi Joint 2: Jika sudut orientasi akhir ($\phi$) ditentukan, kita cari titik sebelum link terakhir.
-2. Mencari $\theta_2$:$$\cos(\theta_2) = \frac{x^2 + y^2 - L_1^2 - L_2^2}{2 L_1 L_2}$$
+2. Mencari $\theta_2$:
+
+   $$\cos(\theta_2) = \frac{x^2 + y^2 - L_1^2 - L_2^2}{2 L_1 L_2}$$
    
