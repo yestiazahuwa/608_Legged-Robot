@@ -27,4 +27,12 @@ Posisi $x$ dan $y$ dihitung dengan menjumlahkan proyeksi setiap link:
 $$x = L_1 \cos(\theta_1) + L_2 \cos(\theta_1 + \theta_2) + L_3 \cos(\theta_1 + \theta_2 + \theta_3)$$
 
 $$y = L_1 \sin(\theta_1) + L_2 \sin(\theta_1 + \theta_2) + L_3 \sin(\theta_1 + \theta_2 + \theta_3)$$
+
+2. Inverse Kinematics (IK) ⬅️Inverse Kinematics adalah proses mencari besar sudut $(\theta_1, \theta_2, \theta_3)$ yang diperlukan agar ujung lengan mencapai titik target $(x, y)$ tertentu.
+
+Metode Perhitungan (Aturan Cosinus):
+Dalam project ini, digunakan Aturan Cosinus untuk memecahkan sudut pada segitiga yang terbentuk antar link (seperti yang terdapat pada catatan teknis):
+
+1. Menentukan Posisi Joint 2: Jika sudut orientasi akhir ($\phi$) ditentukan, kita cari titik sebelum link terakhir.
+2. Mencari $\theta_2$:$$\cos(\theta_2) = \frac{x^2 + y^2 - L_1^2 - L_2^2}{2 L_1 L_2}$$
    
