@@ -6,8 +6,7 @@ Repositori ini berisi implementasi penyelesaian masalah **Inverse Kinematics (IK
 
 ## 📌 Deskripsi Tugas Praktikum
 1. **Pembaruan Dimensi Robot:** Mengubah panjang link robot menjadi konfigurasi baru:
-
-   $$L_1 = 0.5\text{ m}, \quad L_2 = 0.4\text{ m}, \quad L_3 = 0.3\text{ m}$$
+   $L_1 = 0.5\text{ m}, \quad L_2 = 0.4\text{ m}, \quad L_3 = 0.3\text{ m}$
    Sehingga jangkauan maksimum baru robot adalah
    **$\text{MAX\_REACH} = 1.2\text{ m}$**.
 3. **Optimasi Metode Machine Learning:** Mengganti dan mengoptimalkan model bawaan standar (KNN & Random Forest) dengan metode regresi non-linear modern (**SVR** & **Gradient Boosting**).
