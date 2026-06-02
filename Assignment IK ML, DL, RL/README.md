@@ -70,9 +70,7 @@ Berikut adalah grafik komparasi performa error antara model Machine Learning bar
 Ketika diuji untuk mengikuti lintasan melingkar (*circular trajectory*), model berhasil memprediksi perubahan sudut secara harmonis dan presisi mengejar target titik merah secara real-time:
 
 <p align="center">
-  <img src="image/Animasi Gerakan Robot.gif" width="45%" alt="Animasi Lengan Robot Bergerak">
+  <img src="image/Animasi Gerakan Robot.mp4" width="45%" alt="Animasi Lengan Robot Bergerak">
 </p>
 <p align="center"><em>Gambar 4: Animasi Gerakan Model Deep Learning Mengikuti Lintasan Target</em></p>
 
----
-*Proyek ini dikembangkan sebagai bentuk eksperimen implementasi kecerdasan buatan pada kinematika lengan manipulator robot.* **Selamat belajar! 🦾🤖**
